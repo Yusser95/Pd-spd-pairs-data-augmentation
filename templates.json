@@ -1,0 +1,400 @@
+{"Notation": {"C1": "RS (Ac, RN (Ac))",
+              "C10": "RS(Ac,RX(Ac,Ac))",
+              "C11": "RS(Ac,RX(Ac,Ac,Ac))",
+              "C12": "RS(Ac,RO(Ac,Ac))",
+              "C13": "RS(Ei,RN(Ee))",
+              "C14": "RS(Es,RN(Ac))",
+              "C15": "RS(Es,RS(Ac,Ac,Ac))",
+              "C16": "RS(G+s,RN(Ac))",
+              "C17": "RS(G+j,RN(Ac))",
+              "C18": "RS(GXs,RN(Ac))",
+              "C19": "RS(GXs,RN(Ee))",
+              "C2": "RS (Ac, RN (Ee))",
+              "C20": "RS(GXs,RN(G+s))",
+              "C21": "RS(GXs,RN(GXs))",
+              "C22": "RS(GXs,RS(Ac,Ac,Ac))",
+              "C23": "RS(GXs,R+(Ac,Ac))",
+              "C24": "RS(GXs,RX(Ac,Ac))",
+              "C25": "RS(GXs,RX(Ac,Ee))",
+              "C26": "RS(GXs,RX(Ac,empty))",
+              "C27": "RS(GXj,RN(Ac))",
+              "C28": "RS(GXj,RS(Ac,Ee))",
+              "C29": "RS(GXj,RS(Ac,Ac))",
+              "C3": "RS(Ac,RN(GXs))",
+              "C4": "RS(Ac,RN(GXj))",
+              "C5": "RS(Ac,Rs(Ac,Ac))",
+              "C6": "RS(Ac,Rs(Ac,Ac,Ac))",
+              "C7": "RS(Ac,RS(Ac,Ee))",
+              "C8": "RS(Ac,Rs(Ac,GXs))",
+              "C9": "RS(Ac,R+(Ac,Ac))"},
+ "Notation-symbols": {"Ac": "Activity",
+                      "Ee": "event end",
+                      "Ei": "event intermedit",
+                      "Es": "event start",
+                      "G+j": "AND-join",
+                      "G+s": "AND-split",
+                      "GOj": "OR-join",
+                      "GOs": "OR-split",
+                      "GXj": "XOR-join",
+                      "GXs": "XOR-split",
+                      "R+": "parallel",
+                      "Rn": "None",
+                      "Ro": "inclusive",
+                      "Rs": "sequential relationship",
+                      "Rx": "exclusive"},
+
+ "St": {"C1": [[{"N": 15, "template":"Once Ac-s1, Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 13, "template": "Then Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 11, "template": "When Ac-s1, Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 10, "template": "After Ac-s1, Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 5, "template": "Next Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 4, "template": "Afterwards, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 3, "template": "As soon as Ac-s1, Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 3, "template": "Subsequently Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 3, "template": "The role-r1 then Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":["role-r1"],"condition":[], "event":[],"object":[]} },
+               {"N": 3, "template": "Upon Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 2, "template": "After that Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 2, "template": "Likewise Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Ac-s1, after which Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Immediately after Ac-s1, Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "In addition to Ac-s1, Ac-t1.","parms":{"source":["Ac-s1"],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "In the following Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Moreover, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Thereafter Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Therefore Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C10": [[{"N": 1, "template": "After Ac-s1, the role-r1 either Ac-t1 or Ac-t2.","parms":{"source":["Ac-s1"],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "When Ac-s1, the role-r1 may either Ac-t1 or Ac-t2.","parms":{"source":["Ac-s1"],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]],
+
+        "C11": [[{"N": 1, "template": "Sometimes Ac-t1, sometimes Ac-t2 and sometimes Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C12": [[{"N": 1, "template": "object-o1 may be Ac-t1 from either role-r1 or role-r2 or from both.","parms":{"source":[],"target":["Ac-t1"],"role":["role-r1","role-r2"],"condition":[], "event":[],"object":["object-o1"]} }],
+                [{"N": 1, "template": "The role-r1 may either Ac-t1 or also Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]],
+
+        "C13": [[{"N": 1, "template": "After role-r1 Ei-e1, the process flow ends.","parms":{"source":[],"target":[],"role":["role-r1"],"condition":[], "event":["Ei-e1"],"object":[]} }]],
+
+        "C14": [[{"N": 7, "template": "The process starts with Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 6, "template": "The process starts when Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 3, "template": "First, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 2, "template": "The process starts by Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "After the process starts, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "The process is triggered by Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "The process starts once Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 2, "template": "When Es-e1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":["Es-e1"],"object":[]} },
+                {"N": 2, "template": "Whenever Es-e1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":["Es-e1"],"object":[]} }]],
+
+        "C15": [[{"N": 1, "template": "Ac-t1 and Ac-t2 and Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C16": [[{"N": 2, "template": "In the meantime, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C16-1": [[{"N": 1, "template": "At the same time, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C17": [[{"N": 2, "template": "Afterwards, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "After each of these activities, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C18": [[{"N": 81, "template": "If condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 7, "template": "In this case Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 3, "template": "In case condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 2, "template": "For the case condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "condition-c1, in which case Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ]],
+        "C18-1": [[{"N": 81, "template": "If condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 7, "template": "In this case Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 3, "template": "In case condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 2, "template": "For the case condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "condition-c1, in which case Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ],
+                [{"N": 10, "template": "Otherwise, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }
+                ],
+                [{"N": 1, "template": "condition-c1, otherwise Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ],
+                [
+                  {"N": 1, "template": "In that case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                  {"N": 1, "template": "In the latter case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }
+                ],
+                [{"N": 1, "template": "However, if condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                  {"N": 1, "template": "On the other hand, if condition-c1 Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                  {"N": 1, "template": "Sometimes condition-c1, then Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ]
+            ],
+        "C18-2": [[{"N": 81, "template": "If condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 7, "template": "In this case Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 3, "template": "In case condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 2, "template": "For the case condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "condition-c1, in which case Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ],
+                [{"N": 10, "template": "Otherwise, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }
+                ],
+                [{"N": 1, "template": "condition-c1, otherwise Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ],
+                [
+                  {"N": 1, "template": "In that case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                  {"N": 1, "template": "In the latter case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }
+                ],
+                [{"N": 1, "template": "However, if condition-c1, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                  {"N": 1, "template": "On the other hand, if condition-c1 Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                  {"N": 1, "template": "Sometimes condition-c1, then Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+                ]
+            ],
+
+
+
+
+        "C19": [[{"N": 1, "template": "If condition-c1 the process will end.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In the former case, the process instance is finished.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C19-1": [[{"N": 1, "template": "If condition-c1 the process will end.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In the former case, the process instance is finished.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C19-2": [[{"N": 1, "template": "If condition-c1 the process will end.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In the former case, the process instance is finished.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C2": [[{"N": 1, "template": "After Ac-s1, the process ends.","parms":{"source":["Ac-s1"],"target":[],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "After all number activities are completed the process ends.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "The process ends here.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "The process finishes only once Ac-s1.","parms":{"source":["Ac-s1"],"target":[],"role":[],"condition":[], "event":[],"object":[]} }],
+              [{"N": 1, "template": "For role-r1 the process ends then.","parms":{"source":[],"target":[],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]],
+
+        "C20": [[{"N": 1, "template": "This action consists of 2 activities, which are executed in an arbitrary order.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C20-1": [[{"N": 1, "template": "This action consists of 2 activities, which are executed in an arbitrary order.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C20-2": [[{"N": 1, "template": "This action consists of 2 activities, which are executed in an arbitrary order.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C21": [[{"N": 1, "template": "If condition-c1, this results in either condition-c2 or condition-c3.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1","condition-c2","condition-c3"], "event":[],"object":[]} }]],
+        "C21-1": [[{"N": 1, "template": "If condition-c1, this results in either condition-c2 or condition-c3.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1","condition-c2","condition-c3"], "event":[],"object":[]} }]],
+        "C21-2": [[{"N": 1, "template": "If condition-c1, this results in either condition-c2 or condition-c3.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1","condition-c2","condition-c3"], "event":[],"object":[]} }]],
+
+        "C22": [[{"N": 1, "template": "If condition-c1, role-r1 may need to first Ac-t1, then Ac-t2 and finally Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C22-1": [[{"N": 1, "template": "If condition-c1, role-r1 may need to first Ac-t1, then Ac-t2 and finally Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C22-2": [[{"N": 1, "template": "If condition-c1, role-r1 may need to first Ac-t1, then Ac-t2 and finally Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+        "C23": [[{"N": 3, "template": "Once condition-c1, Ac-t1 and meantime Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C23-1": [[{"N": 3, "template": "Once condition-c1, Ac-t1 and meantime Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C23-2": [[{"N": 3, "template": "Once condition-c1, Ac-t1 and meantime Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+
+        "C24": [[{"N": 4, "template": "If condition-c1, Ac-t1, otherwise Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "In case condition-c1, Ac-t1, otherwise Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+              ],
+              [{"N": 1, "template": "role-r1 either Ac-t1 or Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+            ],
+        "C24-1": [[{"N": 4, "template": "If condition-c1, Ac-t1, otherwise Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "In case condition-c1, Ac-t1, otherwise Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+              ],
+              [{"N": 1, "template": "role-r1 either Ac-t1 or Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+            ],
+        "C24-2": [[{"N": 4, "template": "If condition-c1, Ac-t1, otherwise Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "In case condition-c1, Ac-t1, otherwise Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }
+              ],
+              [{"N": 1, "template": "role-r1 either Ac-t1 or Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+            ],
+        
+
+        "C25": [[{"N": 1, "template": "If condition-c1 Ac-t1, otherwise the process is finished.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C25-1": [[{"N": 1, "template": "If condition-c1 Ac-t1, otherwise the process is finished.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C25-2": [[{"N": 1, "template": "If condition-c1 Ac-t1, otherwise the process is finished.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+        "C26": [[{"N": 1, "template": "If condition-c1, Ac-t1, except if condition-c2.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In case condition-c1, Ac-t1 otherwise the process continues.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+              ],
+        "C26-1": [[{"N": 1, "template": "If condition-c1, Ac-t1, except if condition-c2.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In case condition-c1, Ac-t1 otherwise the process continues.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+              ],
+        "C26-2": [[{"N": 1, "template": "If condition-c1, Ac-t1, except if condition-c2.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In case condition-c1, Ac-t1 otherwise the process continues.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+              ],
+
+        
+
+        "C27": [[{"N": 4, "template": "In any case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "In either/any case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "The process then continues with Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 1, "template": "Once one of these 2 activities is performed, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 1, "template": "Once one of these 3 activities is performed, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]
+              ],
+
+
+        "C28": [[{"N": 1, "template": "Afterwards, Ac-t1 and the process completes.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "Finally, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C29": [[{"N": 1, "template": "Then, two current activities are triggered, Ac-t1 and Ac-t1.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C3": [[{"N": 1, "template": "After Ac-s1, it is checked whether condition-c1.","parms":{"source":["Ac-s1"],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} },
+                {"N": 1, "template": "One of the 2 alternative process paths may betaken.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "When Ac-s1, it is first checked whether condition-c1.","parms":{"source":["Ac-s1"],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+               [{"N": 1, "template": "After Ac-s1, the role-r1 can either condition-c1, condition-c2 or condition-c3.","parms":{"source":["Ac-s1"],"target":[],"role":["role-r1"],"condition":["condition-c1","condition-c2","condition-c3"], "event":[],"object":[]} }],
+               [{"N": 1, "template": "This procedure is repeated for each condition-c1.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+               [{"N": 2, "template": "After Ac-s1, the object may lead to number possible outcomes: condition-c1 or condition-c2.","parms":{"source":["Ac-s1"],"target":[],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} },
+               {"N": 1, "template": "After Ac-s1, the role-r1 investigates whether condition-c1 or condition-c2.","parms":{"source":["Ac-s1"],"target":[],"role":["role-r1"],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} },
+               {"N": 1, "template": "After Ac-s1, the role-r1 may either condition-c1 or condition-c2.","parms":{"source":["Ac-s1"],"target":[],"role":["role-r1"],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} },
+               {"N": 1, "template": "The role-r1 can either condition-c1 or condition-c2.","parms":{"source":[],"target":[],"role":["role-r1"],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} },
+               {"N": 1, "template": "The role-r1 can then condition-c1 or condition-c2.","parms":{"source":[],"target":[],"role":["role-r1"],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }]
+              ],
+
+
+        "C4": [[{"N": 1, "template": "Then the process continues normally.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C5": [[{"N": 15, "template": "Ac-t1 and Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }, 
+        	   {"N": 1, "template": "Also Ac-t1 and Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C6": [[{"N": 1, "template": "Ac-t1 and Ac-t2 and Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "First Ac-t1, then Ac-t2, and finally Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C7": [[{"N": 2, "template": "Ac-t1, which ends the process.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 2, "template": "Finally, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 2, "template": "The process completes with Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Ac-t1, then the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "After Ac-t1, this process path ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Afterwards, Ac-t1 and finishes the process instance.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "The process finishes when Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C8": [[{"N": 1, "template": "The role-r1 Ac-t1 and may decide to either Ac-t2 or Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]],
+
+        "C9": [[{"N": 2, "template": "While Ac-t1, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Next, Ac-t1 while Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 1, "template": "Once Ac-s1, Ac-t1 and meantime Ac-t2.","parms":{"source":["Ac-s1"],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[]} ,"object":[]} ]]
+      },
+
+
+
+ "St2": {"C1": [[{"N": 15, "template":"Next, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 13, "template": "Subsequently, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 11, "template": "After that, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C10": [[{"N": 1, "template": "Next, one of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+        		    {"N": 1, "template": "Subsequently, one of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "After that, one of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C11": [[{"N": 1, "template": "Next, one of the 3 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2 In the third procedure, Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "Subsequently, one of the 3 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2 In the third procedure, Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "After that, one of the 3 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2 In the third procedure, Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+
+        "C12": [[
+                {"N": 1, "template": "Ac-t1 is performed on object object-o1. Ac-t1 is performed by 2 alternative roles. The first role is role-r1. The second role is role-r2. Next, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":["role-r1","role-r2"],"condition":[], "event":[],"object":["object-o1"]} },
+                {"N": 1, "template": "Ac-t1 is performed on object object-o1. Ac-t1 is performed by 2 alternative roles. The first role is role-r1. The second role is role-r2. Subsequently, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":["role-r1","role-r2"],"condition":[], "event":[],"object":["object-o1"]} },
+                {"N": 1, "template": "Ac-t1 is performed on object object-o1. Ac-t1 is performed by 2 alternative roles. The first role is role-r1. The second role is role-r2. After that, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":["role-r1","role-r2"],"condition":[], "event":[],"object":["object-o1"]} }],
+               [{"N": 1, "template": "Ac-t1 and Ac-t2 are performed by role-r1. Next, 2 alternative procedures may be executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "Ac-t1 and Ac-t2 are performed by role-r1. Subsequently, 2 alternative procedures may be executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} },
+                {"N": 1, "template": "Ac-t1 and Ac-t2 are performed by role-r1. After that, 2 alternative procedures may be executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+              ],
+
+        "C13": [[{"N": 1, "template": "role-r1 perform event Ei-e1. Finally, the process ends.","parms":{"source":[],"target":[],"role":["role-r1"],"condition":[], "event":["Ei-e1"],"object":[]} }]],
+
+        "C14": [[{"N": 1, "template": "The process starts when Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 1, "template": "When the user perform event Es-e1. The process starts when Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":["Es-e1"],"object":[]} }]
+              ],
+
+        "C15": [[{"N": 1, "template": "The process starts when Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C16": [[{"N": 2, "template": "In the meantime, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C16-1": [[{"N": 1, "template": "At the same time, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C17": [[{"N": 2, "template": "After each case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C18": [[{"N": 81, "template": "In the first procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C18-1": [[{"N": 81, "template": "In the second procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the second procedure, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the second procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the second procedure, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the second procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+              ],
+        "C18-2": [[{"N": 81, "template": "In the third procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the third procedure, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the third procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the third procedure, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                 [{"N": 81, "template": "In the third procedure, If condition-c1, Ac-t1","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+              ],
+        
+
+
+        "C19": [[{"N": 1, "template": "In the first procedure, If condition-c1, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In the first procedure, Finally, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]
+              ],
+        "C19-1": [[{"N": 1, "template": "In the second procedure, If condition-c1, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In the second procedure, Finally, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]
+              ],
+        "C19-2": [[{"N": 1, "template": "In the third procedure, If condition-c1, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }],
+                [{"N": 1, "template": "In the third procedure, Finally, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]
+              ],
+
+        "C2": [[{"N": 1, "template": "Finally, the process ends.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }],
+               [{"N": 1, "template": "For role-r1, the process ends.","parms":{"source":[],"target":[],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+              ],
+
+        "C20": [[{"N": 1, "template": "In the first procedure, 2 procedures are executed in an arbitrary order.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C20-1": [[{"N": 1, "template": "In the second procedure, 2 procedures are executed in an arbitrary order.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        "C20-2": [[{"N": 1, "template": "In the third procedure, 2 procedures are executed in an arbitrary order.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+        
+
+
+        "C21": [[{"N": 1, "template": "In the first procedure, If condition-c1, one of the 2 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C21-1": [[{"N": 1, "template": "In the second procedure, If condition-c1, one of the 2 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C21-2": [[{"N": 1, "template": "In the third procedure, If condition-c1, one of the 2 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+        "C22": [[{"N": 1, "template": "In the first procedure, Ac-t1 and Ac-t2 and Ac-t3 are performed by role-r1. If condition-c1, Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C22-1": [[{"N": 1, "template": "In the second procedure, Ac-t1 and Ac-t2 and Ac-t3 are performed by role-r1. If condition-c1, Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C22-2": [[{"N": 1, "template": "In the third procedure, Ac-t1 and Ac-t2 and Ac-t3 are performed by role-r1. If condition-c1, Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":["role-r1"],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+        "C23": [[{"N": 3, "template": "In the first procedure, If condition-c1, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C23-1": [[{"N": 3, "template": "In the second procedure, If condition-c1, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C23-2": [[{"N": 3, "template": "In the third procedure, If condition-c1, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+        "C24": [[{"N": 4, "template": "In the first procedure, One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 4, "template": "In the first procedure, Ac-t1 and Ac-t2 are performed by role-r1. One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+              ],
+        "C24-1": [[{"N": 4, "template": "In the second procedure, One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }],
+                  [{"N": 4, "template": "In the second procedure, Ac-t1 and Ac-t2 are performed by role-r1. One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+                ],
+        "C24-2": [[{"N": 4, "template": "In the third procedure, One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }],[{"N": 4, "template": "In the third procedure, Ac-t1 and Ac-t2 are performed by role-r1. One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }],
+                  [{"N": 4, "template": "In the third procedure, Ac-t1 and Ac-t2 are performed by role-r1. One of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]
+                ],
+
+        "C25": [[{"N": 1, "template": "one of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C25-1": [[{"N": 1, "template": "one of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+        "C25-2": [[{"N": 1, "template": "one of the 2 alternative procedures is executed. In the first procedure, Ac-t1. In the second procedure, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]],
+
+        "C26": [[{"N": 4, "template": "In the first procedure, One of the 2 alternative procedures is executed. In the first procedure, if condition-c1, Ac-t1. In the second procedure, if condition-c2, except.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }],
+                [{"N": 4, "template": "In the first procedure, One of the 2 alternative procedures is executed. In the first procedure, if condition-c1, Ac-t1. In the second procedure,  continues.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+              ],
+        "C26-1": [[{"N": 4, "template": "In the second procedure, One of the 2 alternative procedures is executed. In the first procedure, if condition-c1, Ac-t1. In the second procedure, if condition-c2, except.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }],
+                  [{"N": 4, "template": "In the second procedure, One of the 2 alternative procedures is executed. In the first procedure, if condition-c1, Ac-t1. In the second procedure,  continues.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+                ],
+        "C26-2": [[{"N": 4, "template": "In the third procedure, One of the 2 alternative procedures is executed. In the first procedure, if condition-c1, Ac-t1. In the second procedure, if condition-c2, except.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1","condition-c2"], "event":[],"object":[]} }],
+                  [{"N": 4, "template": "In the third procedure, One of the 2 alternative procedures is executed. In the first procedure, if condition-c1, Ac-t1. In the second procedure,  continues.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":["condition-c1"], "event":[],"object":[]} }]
+                ],
+
+
+        "C27": [[{"N": 4, "template": "In any case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 4, "template": "In any case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }],
+                [{"N": 4, "template": "In any case, Ac-t1.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]
+              ],
+
+        "C28": [[{"N": 1, "template": "In any case, Ac-t1. Finally, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C29": [[{"N": 1, "template": "In any case, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C3": [[{"N": 2, "template": "Next, one of the 2 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }],
+               [{"N": 2, "template": "Next, one of the 3 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }],
+               [{"N": 2, "template": "Next, one of the 2 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }],
+               [{"N": 2, "template": "Next, one of the 2 alternative procedures is executed.","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]
+              ],
+
+
+        "C4": [[{"N": 1, "template": "In any case, ","parms":{"source":[],"target":[],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C5": [[{"N": 1, "template": "Next, Ac-t1 and then Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+        	   {"N": 1, "template": "Subsequently, Ac-t1 and then Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }, 
+        	   {"N": 1, "template": "After that, Ac-t1 and then Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C6": [[{"N": 1, "template": "Next, Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} },
+        	   {"N": 1, "template": "Subsequently, Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }, 
+        	   {"N": 1, "template": "After that, Ac-t1 and then Ac-t2 and then Ac-t3.","parms":{"source":[],"target":["Ac-t1","Ac-t2","Ac-t3"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C7": [[{"N": 15, "template":"Next, Ac-t1. Finally, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 13, "template": "Subsequently, Ac-t1. Finally, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} },
+               {"N": 11, "template": "After that, Ac-t1. Finally, the process ends.","parms":{"source":[],"target":["Ac-t1"],"role":[],"condition":[], "event":[],"object":[]} }]],
+
+        "C8": [[{"N": 1, "template": "Ac-t1 is performed by role-r1. Next, Ac-t1 and then one of the 2 alternative procedures is executed.","parms":{"source":[],"target":["Ac-t1"],"role":["role-r1"],"condition":[], "event":[],"object":[]} }]],
+
+        "C9": [[{"N": 2, "template": "Next, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+    		   {"N": 2, "template": "Subsequently, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} },
+    		   {"N": 2, "template": "After that, 2 procedures are executed in an arbitrary order. In the meantime, Ac-t1. At the same time, Ac-t2.","parms":{"source":[],"target":["Ac-t1","Ac-t2"],"role":[],"condition":[], "event":[],"object":[]} }]]
+      }
+}
